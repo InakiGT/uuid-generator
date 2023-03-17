@@ -2,7 +2,6 @@ const express = require('express');
 const helmet = require('helmet');
 let compression = require('compression');
 const { v4: uuidv4 } = require('uuid');
-const cors = require('cors');
 require('dotenv').config();
 
 
@@ -13,9 +12,6 @@ app.use(helmet({
 }));
 app.use(compression());
 app.use(express.static('./public'));
-app.use(cors({
-    methods: ['GET']
-}));
 
 app.listen(process.env.HTTP_PORT, () => {
     console.log(`Server listeting on ${process.env.HTTP_PORT}`);

@@ -16,7 +16,7 @@
             $.ajax({
                 url: 'http://127.0.0.1:80/api/get-uuid',
                 type: 'GET',
-                succes: function (res) {
+                success: function (res) {
                     $('#result').html(res);
                 },
                 error: function (xhr, ajaxOptions, thrownError) {
