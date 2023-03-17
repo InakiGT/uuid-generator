@@ -1,0 +1,27 @@
+{
+  "name": "aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InakiGT/uuid-generator.git"
+  },
+  "author": "Iñaki Garcia <inakigarciat@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InakiGT/uuid-generator/issues"
+  },
+  "homepage": "https://github.com/InakiGT/uuid-generator#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "uuid": "^9.0.0"
+  }
+}
